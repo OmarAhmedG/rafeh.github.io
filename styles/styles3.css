@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200&display=swap');
+@import url('https://www.fontify.me/wf/57af5e03b67caa7c2e30903220a9e24a');
+body {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/sun-pattern.png");
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 0;
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding-bottom: 50px;
+}
+.our-content {
+  font-family: 'Raleway', sans-serif;
+  line-height: 2.5em;
+}
+p {
+  line-height: 3.5em;
+  font-size: 17px;
+  padding: 16px 40px;
+  font-family: font90201;
+  font-weight: bold;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* The top navigation bar START */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  font-size: 25px;
+  position: sticky;
+  top: 0;
+}
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: font90201;
+  font-size: 17px;
+}
+  
+  /* Change the color of links on hover */
+.topnav a:hover {
+  text-decoration: underline;
+  color: blue;
+  background-color: rgb(0, 0, 0);
+}
+  
+  /* Add a color to the active/current link */
+.topnav a.active {
+  background-color: orange;
+    color: white;
+  font-family: font90201;
+}
+.topnav a.active:hover {
+  background-color: rgb(0, 0, 0);
+  text-decoration: underline;
+  color: blue;
+}
+
+/* The top navigation bar END */
+
